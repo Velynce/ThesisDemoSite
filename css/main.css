@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img, embed, object, video
+{
+	max-width: 100%;
+}
+
+body {
+	background: url(../images/headphones.jpg);
+	font-size: 14px;
+	font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Dosis', Arial, sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+p,li {
+	font-family: 'Josefin Sans', Arial, sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+p {
+	padding: 15px;
+}
+
+header {
+	margin: 0;
+	background-color: rgb(127,192,170);
+	text-align: center;
+	overflow: hidden;
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgba(91, 165, 138, 0.7); 
+	position: fixed;
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(127,192,170);
+	font-family: 'Dosis', Arial, sans-serif;
+	color: white;
+	font-size: 24px;
+	margin-top: 50px;
+	padding: 15px;
+}
+
+a {
+	font-family: 'Dosis', Arial, sans-serif;
+	font-size: 30px;
+	margin-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: gray;
+	border-bottom: solid gray 3px;
+}
+
+#title {
+	margin-top: 5em;
+	text-align: center;
+	margin-right:0;
+}
+
+#intro, #about, #tech, #dev, #work, #preview {
+	background-color: rgba(42,150,113,0.7);
+	border-radius: 20px;
+}
+
+#intro {
+	width: 60%;
+	padding: 25px;
+	margin: 0 auto;	
+}
+
+#about, #tech, #dev, #work, #preview {
+	width: 60%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 30%;
+	padding-top: 20px; 
+	text-align: center;
+}
+
+#work {
+	width: 60%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#list {
+	width: 75%;
+	margin: 0 auto;
+	padding: 0 60px 0 60px;
+	text-align: center;
+}
+
+#blogo {
+	width: 30%;
+}
+
+#image {
+	width: 50%;
+}
+
+#preview {
+	text-align: center;
+}
+
+#title, .titles{
+	color: #00a651;
+}
+
+.item {
+	list-style-type: none;
+	float: left;
+	margin-right: 20px;
+}
+
+.titles {
+	margin-top: 3em;
+}
+
+.logos {
+	width: 30%;
+}
+
+.images {
+	width: 50%;
+}
+
+@media screen and (max-width: 20em) {
+	#logo {
+		padding-top: 30px; 
+	}
+
+	p {
+		margin-top: 0; 
+		font-size: 10px;
+		line-height: 12px;
+		padding: 0;
+	}
+
+	nav {
+		padding: 0;
+	}
+
+	a {
+		font-size: 16px;
+	}
+
+	a:hover {
+		color: gray;
+		border-bottom: solid gray 2px;
+	}
+
+	header {
+		overflow: hidden;
+	}
+
+	#title {
+		margin-top: 7em;
+	}
+
+	#list {
+		width: 60%;
+		display: block;
+		margin: 0 auto;
+		padding: 0 100px 0 100px;
+	}
+
+	.item {
+		clear: both;
+		text-align: center;
+	}
+
+	.techItems {
+		font-size: 12px;
+	}
+
+	
+}
+
+@media screen and (min-width: 20em) and (max-width: 48em) {
+	#logo {
+		width: 35%;
+	}
+
+	p {
+		margin-top: 0;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.techItems {
+		font-size: 16px;
+
+	}
+
+	#title {
+		margin-top: 6em;
+	}
+
+	a {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 48em) and (max-width: 75em) {
+	#logo {
+		width: 40%;
+	}
+
+	p {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.item {
+		width: 23%;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.titles {
+		margin-top: 3em;
+	}
+
+	#title {
+		margin-top: 8em;
+	}
+
+	a {
+		font-size: 25px;
+		text-align: center;
+	}
+}
